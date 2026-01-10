@@ -1,6 +1,6 @@
 ---
 title: Coding Agent Showdown
-sub_title: The Good, the Bad, and the Ugly
+sub_title: From Vibe to Enterprise Standard
 author: Neeraj Garg (@garg)
 theme:
   name: dark
@@ -111,7 +111,6 @@ AGENTS.md
 
 https://github.com/adobe/helix-website/blob/main/AGENTS.md
 
-(steal this)
 
 ---
 
@@ -155,17 +154,6 @@ Note: context is the hard currency of coding agents. you want to preserve them,
 protect them, and use them wisely.
 
 -->
----
-
-# Upskill
-
-```bash
-$ gh ext install trieloff/gh-upskill
-$ gh upskill adobe/helix-website
-```
-
-Install skills from another repository, for any agent that respects `AGENTS.md`
-
 ---
 
 # `--dangerously-skip-permissions`
