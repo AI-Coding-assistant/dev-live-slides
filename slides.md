@@ -32,7 +32,7 @@ Agentic
 
 ---
 ```bash +exec
-./copresenter "Got anything to add?"
+./copresenter "Got anything to add ?"
 ```
 
 ---
@@ -116,7 +116,7 @@ https://github.com/adobe/helix-website/blob/main/AGENTS.md
 
 # AgentSkills
 
-```banner:mini +animate:neon +loop
+```banner +animate:matrix
 AgentSkills
 ```
 
@@ -157,9 +157,15 @@ protect them, and use them wisely.
 -->
 ---
 
+```bash +exec
+./copresenter "Which coding agents currently support AgentSkills"
+```
+
+---
+
 # `--dangerously-skip-permissions`
 
-```banner:block +animate:glitch +loop
+```banner:block +animate:matrix
 YOLO
 ```
 
@@ -309,31 +315,16 @@ aem.live
 ---
 
 
-## Coding Agents are (mostly) text-based
+## Coding Agents: Where They Shine, Where They Struggle
 
-- **Source code**: naturally
-- **CLI**: very well
-- **CLI background tasks**: emerging support (Claude is great at that)
-- **TUI**: early support (`gemini`), but still buggy
-- **Image inputs**: mixed: some have it, some don't, but it's always consuming lots of context
-- **GUI Apps**: no. not yet, at least
+- **Source code**: Their natural playground! No one gets bored here.
+- **CLI commands**: Fluent and reliable—most agents excel at terminal-based tasks.
+- **CLI background tasks**: Support is emerging (Claude stands out here), but this is still evolving.
+- **Text UIs (TUI)**: Early days—`gemini` and others are exploring, but expect inconsistencies.
+- **Image inputs**: Some agents accept them, but they quickly eat up context space—use sparingly!
+- **Graphical UI applications**: Not really—true GUI manipulation is out of reach (for now).
 
-To help your agent, see what you see, turn the vision challenge into a coding challenge.
-
----
-
-# In AEM
-
-```bash
-$ aem up --forward-browser-logs
-```
-
-Since version 16.13.0 (2025-09-16), `aem` can forward browser logs to the console, so agents can see them.
-
-# Web Development
-
-Use `puppeteer` or `playwright`, and instruct your agent to write throw-away scripts to test and capture the page.
-
+➡️ *Tip*: If you want your agent to "see what you see," bridge the gap—turn visuals into code-oriented challenges the agent can process.
 
 ---
 
@@ -390,17 +381,6 @@ COMPARE
 
 ---
 
-| Agent | Model |
-|-------|-------|
-| `claude` | claude-opus-4.1 |
-| `gemini` | gemini-2.5-pro |
-| `copilot` | claude-haiku-4.5 |
-| `cursor-agent` | composer 1 |
-| `qwen` | qwen3-coder-plus-2025-09-23 |
-| `droid` | Droid Core (GLM 4.6) |
-
----
-
 ```banner:epic +animate:matrix +once
 STOP
 DEMO
@@ -409,6 +389,20 @@ TIME
 
 ---
 
+| Agent          | Model                        |
+|----------------|-----------------------------|
+| `claude`       | claude-opus-4.1             |
+| `gemini`       | gemini-2.5-pro              |
+| `copilot`      | claude-haiku-4.5            |
+| `cursor-agent` | composer 1                  |
+| `qwen`         | qwen3-coder-plus-2025-09-23 |
+| `droid`        | Droid Core (GLM 4.6)        |
+
+> We'll actually use all of these different coding agents, in parallel, to build a feature live—right in the [aem.live](https://aem.live) site!
+
+
+---
+
 ```bash +exec
-./copresenter "What's that last slide supposed to mean?"
+./copresenter "Before the live demo: What's the key to successfully building with AI coding agents ?"
 ```
