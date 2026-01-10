@@ -114,10 +114,10 @@ https://github.com/adobe/helix-website/blob/main/AGENTS.md
 
 ---
 
-# SKILLS.md
+# AgentSkills
 
 ```banner:mini +animate:neon +loop
-SKILLS.md
+AgentSkills
 ```
 
 ---
@@ -147,6 +147,7 @@ SKILLS.md
 - make your agent more __skilled__
 - are used on-demand
 - don't consume *context* by default
+- turn multi-step tasks into consistent workflows
 
 <!--
 
@@ -195,36 +196,6 @@ Assured, and bored.
 
 ## Escape the sandbox
 
-> Or have you ever seen a cowboy wear a seatbelt to the rodeo?
-
----
-
-```banner +animate:fire +loop
-HERZBLUT
-```
-
----
-# Entschuldigung, was ist Herzblut?
-
-```ascii +animate:breathe +loop
-       ♥♥♥♥♥       ♥♥♥♥♥
-     ♥♥     ♥♥   ♥♥     ♥♥
-    ♥♥       ♥♥ ♥♥       ♥♥
-    ♥♥                   ♥♥
-     ♥♥                 ♥♥
-      ♥♥               ♥♥
-       ♥♥             ♥♥
-         ♥♥         ♥♥
-           ♥♥     ♥♥
-             ♥♥ ♥♥
-               ♥
-```
-
-**Herzblut** (German): *lifeblood, passion, heart and soul*
-
-When you code without an AI agent, you're not just writing code—you're infusing it with your vision, your standards, your *Herzblut*. You feel passionate about every detail of the code.
-
-When coding with an AI agent, __drop that attitude__, it won't do you no good. The agent is a tool, an so is the code it produces.
 
 ---
 
@@ -337,11 +308,6 @@ aem.live
 
 ---
 
-```bash +exec
-./copresenter "What's that last slide supposed to mean?"
-```
-
----
 
 ## Coding Agents are (mostly) text-based
 
@@ -444,5 +410,5 @@ TIME
 ---
 
 ```bash +exec
-./copresenter "How long do you think, did it take to set up these agents?"
+./copresenter "What's that last slide supposed to mean?"
 ```
