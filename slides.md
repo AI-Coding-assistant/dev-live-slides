@@ -122,6 +122,8 @@ AGENTS.md
 
 ---
 
+> Agents.md in AEM project: https://github.com/adobe/helix-website/blob/main/AGENTS.md
+
 
 ```bash +exec
 ./copresenter "why should we use Agents.md while working with coding agents, answer in bullet points ?"
@@ -129,7 +131,7 @@ AGENTS.md
 
 
 
-> Agents.md in AEM project: https://github.com/adobe/helix-website/blob/main/AGENTS.md
+
 
 
 ---
