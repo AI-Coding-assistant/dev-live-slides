@@ -11,7 +11,7 @@ options:
 # And AI says hi to you
 
 ```bash +exec
-./copresenter --new "Say hi to the Adobe Developers Live audience"
+./copresenter --new "Say hi to the Noida Developers Day Live audience"
 ```
 
 ---
