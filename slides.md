@@ -122,13 +122,14 @@ AGENTS.md
 
 ---
 
-# If you don't like repeating yourself
 
-- default prompt for every project (~) or the current repository
-- or even the current folder
-- put all the things the agent should always follow here
+```bash +exec
+./copresenter "why should we use Agents.md while working with coding agents, answer in bullet points ?"
+```
 
-https://github.com/adobe/helix-website/blob/main/AGENTS.md
+
+
+> Agents.md in AEM project: https://github.com/adobe/helix-website/blob/main/AGENTS.md
 
 
 ---
