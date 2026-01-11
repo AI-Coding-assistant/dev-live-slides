@@ -80,6 +80,12 @@ STANDARDS
 These standards help agents understand your codebase and workflows
 
 ---
+# MCP
+
+```banner +animate:matrix +loop
+MCP
+```
+---
 
 ```bash +exec
 ./copresenter "Remind me what MCP stands for"
@@ -89,7 +95,7 @@ These standards help agents understand your codebase and workflows
 
 # AGENTS.md
 
-```banner:mini +animate:scanner +loop
+```banner +animate:matrix +loop
 AGENTS.md
 ```
 
@@ -129,7 +135,7 @@ https://github.com/adobe/helix-website/blob/main/AGENTS.md
 
 # AgentSkills
 
-```banner +animate:matrix
+```banner +animate:matrix +loop
 AgentSkills
 ```
 
@@ -178,7 +184,7 @@ protect them, and use them wisely.
 
 # Advanced Tools & Techniques
 
-```banner
+```banner +animate:rainbow +loop
 POWER USER
 ```
 
@@ -196,7 +202,7 @@ Unlock the full potential of coding agents
 
 # `--dangerously-skip-permissions`
 
-```banner:block +animate:matrix
+```banner:block +animate:matrix +loop
 YOLO
 ```
 
@@ -238,7 +244,7 @@ Assured, and bored.
 
 # Multitasking/Multi-Clauding
 
-```banner:ogre +animate:fire
+```banner:ogre +animate:fire +loop
 PARALLEL
 ```
 
@@ -324,39 +330,6 @@ Multiple working directories attached to the same repository
 
 ---
 
-## Coding Agents: Strengths & Limits
-
-<!-- column_layout: [1, 1] -->
-<!-- column: 0 -->
-
-### ✅ Where They Excel
-
-<!-- incremental_lists: false -->
-
-- **Source code** - Natural playground
-- **CLI commands** - Fluent & reliable
-- **CLI background tasks** - Emerging (Claude leads)
-
-<!-- column: 1 -->
-
-### ⚠️ Where They Struggle
-
-<!-- incremental_lists: false -->
-
-- **Text UIs (TUI)** - Early days, buggy
-- **Image inputs** - Eats context space
-- **GUI Apps** - Not supported (yet)
-
-<!-- reset_layout -->
-
----
-
-```bash +exec
-./copresenter "Agents struggle with visual interfaces. How to bridge that gap when we need them to see what we see?"
-```
-
----
-
 # Guardrails/Attribution/Transparency
 
 ```banner +animate:breathe +loop
@@ -400,7 +373,33 @@ This helps reviewers not waste their "Herzblut" on your vibe-coded output.
 - https://github.com/trieloff/ai-aligned-gh
 - https://github.com/trieloff/ai-aligned-git
 
+
 ---
+
+## Coding Agents: Strengths & Limits
+
+<!-- column_layout: [1, 1] -->
+<!-- column: 0 -->
+
+### ✅ Where They Excel
+
+<!-- incremental_lists: false -->
+
+- **Source code** - Natural playground
+- **CLI commands** - Fluent & reliable
+- **CLI background tasks** - Emerging (Claude leads)
+
+<!-- column: 1 -->
+
+### ⚠️ Where They Struggle
+
+<!-- incremental_lists: false -->
+
+- **Text UIs (TUI)** - Early days, buggy
+- **Image inputs** - Eats context space
+- **GUI Apps** - Not supported (yet)
+
+<!-- reset_layout -->
 
 ---
 
