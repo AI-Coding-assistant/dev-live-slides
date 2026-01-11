@@ -282,37 +282,42 @@ Multiple working directories attached to the same repository
 - Agents can work in parallel without conflicts
 - Test features independently while keeping main clean
 
+# Automatic Worktree Detection in **AEM**
+
+`aem up` automatically detects when it's launched in a Git worktree and will pick a non-conflicting port: run as many dev servers as you have worktrees.
+
 ---
 
-# Edge Delivery Services
+## Coding Agents: Strengths & Limits
 
-```banner:graceful
-aem.live
+<!-- column_layout: [1, 1] -->
+<!-- column: 0 -->
+
+### ✅ Where They Excel
+
+<!-- incremental_lists: false -->
+
+- **Source code** - Natural playground
+- **CLI commands** - Fluent & reliable
+- **CLI background tasks** - Emerging (Claude leads)
+
+<!-- column: 1 -->
+
+### ⚠️ Where They Struggle
+
+<!-- incremental_lists: false -->
+
+- **Text UIs (TUI)** - Early days, buggy
+- **Image inputs** - Eats context space
+- **GUI Apps** - Not supported (yet)
+
+<!-- reset_layout -->
+
+---
+
+```bash +exec
+./copresenter "Agents struggle with visual interfaces. How to bridge that gap when we need them to see what we see?"
 ```
-
----
-
-```bash
-$ aem up
-```
-
-# Automatic Worktree Detection
-
-`aem up` automatically detects when it's launched in a Git worktree and will pick a non-conflicting port: run as many dev servers as you have worktrees. Since version 16.12.0 (2025-09-16)
-
-
----
-
-## Coding Agents: Where They Shine, Where They Struggle
-
-- **Source code**: Their natural playground! No one gets bored here.
-- **CLI commands**: Fluent and reliable—most agents excel at terminal-based tasks.
-- **CLI background tasks**: Support is emerging (Claude stands out here), but this is still evolving.
-- **Text UIs (TUI)**: Early days—`gemini` and others are exploring, but expect inconsistencies.
-- **Image inputs**: Some agents accept them, but they quickly eat up context space—use sparingly!
-- **Graphical UI applications**: Not really—true GUI manipulation is out of reach (for now).
-
-➡️ *Tip*: If you want your agent to "see what you see," bridge the gap—turn visuals into code-oriented challenges the agent can process.
 
 ---
 
