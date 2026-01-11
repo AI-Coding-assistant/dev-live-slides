@@ -63,6 +63,24 @@ Agentic
 
 ---
 
+# Standards & Configuration
+
+```banner +animate:rainbow +loop
+STANDARDS
+```
+
+---
+
+# Standards & Configuration
+
+- **MCP** - Model Context Protocol for extending agent capabilities
+- **AGENTS.md** - Project-specific agent instructions
+- **AgentSkills** - On-demand skill modules
+
+These standards help agents understand your codebase and workflows
+
+---
+
 ```bash +exec
 ./copresenter "Remind me what MCP stands for"
 ```
@@ -155,6 +173,24 @@ protect them, and use them wisely.
 ```bash +exec
 ./copresenter "Which coding agents currently support AgentSkills"
 ```
+
+---
+
+# Advanced Tools & Techniques
+
+```banner
+POWER USER
+```
+
+---
+
+# Advanced Tools & Techniques
+
+- **`--dangerously-skip-permissions`** - Skip safety prompts (YOLO mode)
+- **Multitasking** - Run multiple agents in parallel
+- **Git Worktrees** - Isolated workspaces for parallel development
+
+Unlock the full potential of coding agents
 
 ---
 
@@ -365,25 +401,6 @@ This helps reviewers not waste their "Herzblut" on your vibe-coded output.
 - https://github.com/trieloff/ai-aligned-git
 
 ---
-
-# Agent/Model table
-
-```banner +animate:glitch +once
-COMPARE
-```
-
----
-
-| Agent          | Model                        |
-|----------------|-----------------------------|
-| `claude`       | claude-opus-4.1             |
-| `gemini`       | gemini-2.5-pro              |
-| `copilot`      | claude-haiku-4.5            |
-| `cursor-agent` | composer 1                  |
-| `qwen`         | qwen3-coder-plus-2025-09-23 |
-| `droid`        | Droid Core (GLM 4.6)        |
-
-> We'll actually use all of these different coding agents, in parallel, to build a feature live—right in the [aem.live](https://aem.live) site!
 
 ---
 
