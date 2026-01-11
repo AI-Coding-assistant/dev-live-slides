@@ -31,11 +31,6 @@ Agentic
 - Standalone agents in the cloud
 
 ---
-```bash +exec
-./copresenter "Got anything to add ?"
-```
-
----
 
 ```ascii
 ┌──────────────────────────────────────────────────────────┐
@@ -289,6 +284,14 @@ Multiple working directories attached to the same repository
 
 ---
 
+# Edge Delivery Services
+
+```banner:graceful
+aem.live
+```
+
+---
+
 ```bash
 $ aem up
 ```
@@ -299,21 +302,6 @@ $ aem up
 
 
 ---
-
-# Edge Delivery Services
-
-```banner:graceful
-aem.live
-```
-
----
-
-# https://www.aem.live/ai
-
-![Screenshot: developing with AI tools on www.aem.live](ai.png)
-
----
-
 
 ## Coding Agents: Where They Shine, Where They Struggle
 
@@ -381,14 +369,6 @@ COMPARE
 
 ---
 
-```banner:epic +animate:matrix +once
-STOP
-DEMO
-TIME
-```
-
----
-
 | Agent          | Model                        |
 |----------------|-----------------------------|
 | `claude`       | claude-opus-4.1             |
@@ -400,6 +380,13 @@ TIME
 
 > We'll actually use all of these different coding agents, in parallel, to build a feature live—right in the [aem.live](https://aem.live) site!
 
+---
+
+```banner:epic +animate:matrix +once
+STOP
+DEMO
+TIME
+```
 
 ---
 
