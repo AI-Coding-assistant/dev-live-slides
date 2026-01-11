@@ -415,5 +415,38 @@ TIME
 ---
 
 ```bash +exec
-./copresenter "Before the live demo: What's the key to successfully building with AI coding agents ?"
+./copresenter "Finally What's the key takeaway for developers to successfully building with AI coding agents ?"
 ```
+---
+
+```banner:epic +animate:rainbow +loop
+THANK YOU
+```
+
+<!-- column_layout: [1, 1] -->
+<!-- column: 0 -->
+<!-- jump_to_middle -->
+
+## Neeraj Garg
+
+<!-- column: 1 -->
+
+```ascii
+     ┌─────────────┐
+     │    ╔═══╗    │
+     │    ║ ◉ ║    │
+     │    ╚═══╝    │
+     │             │
+     │   ┌─────┐   │
+     │   │ 010 │   │
+     │   │ 101 │   │
+     │   └─────┘   │
+     │             │
+     │  ┌───────┐  │
+     │  │  AI   │  │
+     │  └───────┘  │
+     └─────────────┘
+```
+
+<!-- reset_layout -->
+
