@@ -1,7 +1,7 @@
 ---
 title: Coding Agent Showdown
 sub_title: From Vibe to Enterprise Standard
-author: Neeraj Garg (@garg)
+author: Neeraj Garg (@garg), Sam ( AI Copresenter )
 theme:
   name: dark
 options:
@@ -11,7 +11,7 @@ options:
 # And AI says hi to you
 
 ```bash +exec
-./copresenter --new "Say hi to the Noida Developers Day Live audience"
+./sam --new "Say hi to the Noida Developers Day Live audience"
 ```
 
 ---
@@ -88,7 +88,7 @@ MCP
 ---
 
 ```bash +exec
-./copresenter "Remind me what MCP stands for"
+./sam "Remind me what MCP stands for"
 ```
 
 ---
@@ -122,17 +122,9 @@ AGENTS.md
 
 ---
 
-> Agents.md in AEM project: https://github.com/adobe/helix-website/blob/main/AGENTS.md
-
-
 ```bash +exec
-./copresenter "why should we use Agents.md while working with coding agents, answer in bullet points ?"
+./sam "why should we use Agents.md while working with coding agents, answer in bullet points ?"
 ```
-
-
-
-
-
 
 ---
 
@@ -180,10 +172,56 @@ protect them, and use them wisely.
 ---
 
 ```bash +exec
-./copresenter "Which coding agents currently support AgentSkills"
+./sam "Which coding agents currently support AgentSkills"
 ```
 
 ---
+
+
+
+# Real-World Example: AEM
+
+```banner:slant +animate:rainbow +loop
+AEM STANDARDS
+```
+
+---
+
+# AEM Uses All These Standards
+
+```ascii +animate:matrix
+┌────────────────────────────────────────────────────┐
+│                                                    │
+│  ┌──────────┐    ┌───────────┐    ┌──────────┐     │
+│  │   MCP    │    │ AGENTS.md │    │  Skills  │     │
+│  │ Servers  │    │           │    │          │     │
+│  └────┬─────┘    └────┬──────┘    └────┬─────┘     │
+│       │               │                │           │
+│       └───────────────┼────────────────┘           │
+│                       │                            │
+│                  ┌────▼──────┐                     │
+│                  │    AEM    │                     │
+│                  │  Projects │                     │
+│                  └───────────┘                     │
+│                                                    │
+└────────────────────────────────────────────────────┘
+```
+
+---
+
+# AEM Standards in Practice
+
+- **AGENTS.md** - Project-specific guidance for AEM Edge Delivery Services
+- **Skills** - Orchestration, functional, and research skills for AEM development
+- **MCP Servers** - Context7, Helix MCP, Playwright for AEM workflows
+
+**Resources:**
+- 📄 [AGENTS.md](https://github.com/adobe/helix-website/blob/main/AGENTS.md)
+- 🎯 [Skills](https://github.com/adobe/helix-website/tree/main/.claude/skills)
+- 🌐 [aem.live/developer/ai-coding-agents](https://www.aem.live/developer/ai-coding-agents)
+
+---
+
 
 # Advanced Tools & Techniques
 
@@ -415,7 +453,7 @@ TIME
 ---
 
 ```bash +exec
-./copresenter "Finally What's the key takeaway for developers to successfully building with AI coding agents ?"
+./sam "Finally What's the key takeaway for developers to successfully building with AI coding agents ?"
 ```
 ---
 
@@ -423,32 +461,30 @@ TIME
 THANK YOU
 ```
 
-<!-- column_layout: [1] -->
-<!-- column: 0 -->
+<!-- jump_to_middle -->
+<!-- alignment: center -->
 
 ```ascii
-                                             ╔════════════════════╗
-                                             ║     AI ENGINEER    ║
-                                      ╔══════╩════════════════════╩═══════╗
-                                      ║          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓           ║
-                                      ║         ▓▓  ◉       ◉   ▓▓        ║
-                                      ║        ▓▓      ▄▄▄▄      ▓▓       ║
-                                      ║        ▓▓  ───┘    └───  ▓▓       ║
-                                      ║         ▓▓  ▓▓▓▓▓▓▓▓▓▓  ▓▓        ║
-                                      ║            ▓▓▓▓▓▓▓▓▓▓▓▓           ║
-                          ╔═══════════╩═══════════════════════════════════╩══════════════╗
-                          ║                                                              ║
-                          ║                  🙏  T H A N K   Y O U  🙏                   ║
-                          ║                                                              ║
-                          ║               For your time and attention today              ║
-                          ║                                                              ║    
-                          ║                    Questions? Let’s talk 🚀                  ║    
-                          ║                                                              ║    
-                          ║                         Neeraj Garg                          ║   
-                          ║                                                              ║    
-                          ╚══════════════════════════════════════════════════════════════╝
-
+                                                                         ╔════════════════════╗
+                                                                         ║   AI ENGINEER      ║
+                                                                  ╔══════╩════════════════════╩═══════╗
+                                                                  ║          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓           ║
+                                                                  ║         ▓▓  ◉       ◉   ▓▓        ║
+                                                                  ║        ▓▓      ▄▄▄▄      ▓▓       ║
+                                                                  ║        ▓▓  ───┘    └───  ▓▓       ║
+                                                                  ║         ▓▓  ▓▓▓▓▓▓▓▓▓▓  ▓▓        ║
+                                                                  ║            ▓▓▓▓▓▓▓▓▓▓▓▓           ║
+                                                    ╔═════════════╩═══════════════════════════════════╩══════════════╗
+                                                    ║                                                                ║
+                                                    ║                   🙏  T H A N K   Y O U  🙏                    ║
+                                                    ║                                                                ║
+                                                    ║                For your time and attention today               ║
+                                                    ║                                                                ║
+                                                    ║                     Questions? Let's talk 🚀                   ║
+                                                    ║                                                                ║
+                                                    ║                          Neeraj Garg                           ║
+                                                    ║                       Sam (AI Copresenter)                     ║
+                                                    ║                                                                ║
+                                                    ╚════════════════════════════════════════════════════════════════╝
 ```
-
-<!-- reset_layout -->
 

@@ -53,7 +53,7 @@ extract_slides_context() {
         if [[ $in_exec_block -eq 1 ]]; then
             if [[ "$line" =~ ^\`\`\` ]]; then
                 in_exec_block=0
-            elif [[ "$line" =~ \./copresenter ]]; then
+            elif [[ "$line" =~ \./sam ]]; then
                 # Found the copresenter call, return everything up to here
                 echo "$result"
                 return 0
@@ -135,8 +135,8 @@ prepare_mode() {
         if [[ $in_exec_block -eq 1 ]]; then
             if [[ "$line" =~ ^\`\`\` ]]; then
                 in_exec_block=0
-            elif [[ "$line" =~ \./copresenter[[:space:]]+(.+) ]]; then
-                # Extract the prompt (everything after ./copresenter, excluding --new if present)
+            elif [[ "$line" =~ \./sam[[:space:]]+(.+) ]]; then
+                # Extract the prompt (everything after ./sam, excluding --new if present)
                 local call="${BASH_REMATCH[1]}"
                 # Remove --new flag if present
                 call="${call//--new /}"

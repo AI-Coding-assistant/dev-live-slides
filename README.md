@@ -297,7 +297,7 @@ Open two terminal windows, in the first one, run the presentation. Fiddle with t
 
 ```bash
 # pre-cache the copresenter answers
-$ ./copresenter --prepare
+$ ./sam --prepare
 # show the presentation
 $ ./bin/presenterm -x slides.md
 ```
