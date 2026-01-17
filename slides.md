@@ -187,28 +187,6 @@ AEM STANDARDS
 
 ---
 
-# AEM Uses All These Standards
-
-```ascii +animate:matrix
-┌────────────────────────────────────────────────────┐
-│                                                    │
-│  ┌──────────┐    ┌───────────┐    ┌──────────┐     │
-│  │   MCP    │    │ AGENTS.md │    │  Skills  │     │
-│  │ Servers  │    │           │    │          │     │
-│  └────┬─────┘    └────┬──────┘    └────┬─────┘     │
-│       │               │                │           │
-│       └───────────────┼────────────────┘           │
-│                       │                            │
-│                  ┌────▼──────┐                     │
-│                  │    AEM    │                     │
-│                  │  Projects │                     │
-│                  └───────────┘                     │
-│                                                    │
-└────────────────────────────────────────────────────┘
-```
-
----
-
 # AEM Standards in Practice
 
 - **AGENTS.md** - Project-specific guidance for AEM Edge Delivery Services
@@ -219,6 +197,8 @@ AEM STANDARDS
 - 📄 [AGENTS.md](https://github.com/adobe/helix-website/blob/main/AGENTS.md)
 - 🎯 [Skills](https://github.com/adobe/helix-website/tree/main/.claude/skills)
 - 🌐 [aem.live/developer/ai-coding-agents](https://www.aem.live/developer/ai-coding-agents)
+
+![aem coding standards](assets/aem.png)
 
 ---
 
@@ -280,6 +260,8 @@ Assured, and bored.
 
 ## Escape the sandbox
 
+![agent running in yolo mode](assets/yolo.png)
+
 
 ---
 
@@ -319,6 +301,10 @@ PARALLEL
 - **Context isolation**: Each instance focuses on one specific task
 - **Faster iteration**: Don't wait for one task to finish before starting another
 
+
+![coding agents running in parallel mode](assets/parallel.png)
+
+
 ---
 
 # Git Worktrees
@@ -328,7 +314,7 @@ WORKTREE
 ```
 ---
 
-![Firefly_Gemini Flash_Create a pixel-art illustration (8-bit) of a forest of little trees](worktrees.png)
+![Firefly_Gemini Flash_Create a pixel-art illustration (8-bit) of a forest of little trees](assets/worktrees.png)
 
 ---
 
