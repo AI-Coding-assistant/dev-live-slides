@@ -10,9 +10,17 @@ options:
 
 # And AI says hi to you
 
+<!-- column_layout: [2, 1] -->
+<!-- column: 0 -->
+
 ```bash +exec
 ./sam --new "Say hi to the Noida Developers Day Live audience"
 ```
+
+<!-- column: 1 -->
+
+![sam altman](assets/sam.png)
+
 
 ---
 # Not just any kind of AI
@@ -78,6 +86,8 @@ STANDARDS
 - **AgentSkills** - On-demand skill modules
 
 These standards help agents understand your codebase and workflows
+
+![sam altman](assets/vibe2.png)
 
 ---
 # MCP
@@ -181,7 +191,7 @@ protect them, and use them wisely.
 
 # Real-World Example: AEM
 
-```banner:slant +animate:rainbow +loop
+```banner +animate:matrix +loop
 AEM STANDARDS
 ```
 
@@ -205,7 +215,7 @@ AEM STANDARDS
 
 # Advanced Tools & Techniques
 
-```banner +animate:rainbow +loop
+```banner +animate:matrix +loop
 POWER USER
 ```
 
@@ -223,7 +233,7 @@ Unlock the full potential of coding agents
 
 # `--dangerously-skip-permissions`
 
-```banner:block +animate:matrix +loop
+```banner +animate:matrix +loop
 YOLO
 ```
 
@@ -442,36 +452,33 @@ TIME
 ./sam "Finally What's the key takeaway for developers to successfully building with AI coding agents ?"
 ```
 ---
-
-```banner:epic +animate:matrix +loop
+```banner +animate:matrix +loop
 THANK YOU
 ```
 
-<!-- jump_to_middle -->
 <!-- alignment: center -->
-
 ```ascii
-                                                                         ╔════════════════════╗
-                                                                         ║   AI ENGINEER      ║
-                                                                  ╔══════╩════════════════════╩═══════╗
-                                                                  ║          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓           ║
-                                                                  ║         ▓▓  ◉       ◉   ▓▓        ║
-                                                                  ║        ▓▓      ▄▄▄▄      ▓▓       ║
-                                                                  ║        ▓▓  ───┘    └───  ▓▓       ║
-                                                                  ║         ▓▓  ▓▓▓▓▓▓▓▓▓▓  ▓▓        ║
-                                                                  ║            ▓▓▓▓▓▓▓▓▓▓▓▓           ║
-                                                    ╔═════════════╩═══════════════════════════════════╩══════════════╗
-                                                    ║                                                                ║
-                                                    ║                   🙏  T H A N K   Y O U  🙏                    ║
-                                                    ║                                                                ║
-                                                    ║                For your time and attention today               ║
-                                                    ║                                                                ║
-                                                    ║                     Questions? Let's talk 🚀                   ║
-                                                    ║                                                                ║
-                                                    ║                          Neeraj Garg                           ║
-                                                    ║                       Sam (AI Copresenter)                     ║
-                                                    ║                                                                ║
-                                                    ╚════════════════════════════════════════════════════════════════╝
+                                            ╔════════════════════╗
+                                            ║   AI ENGINEER      ║
+                                    ╔══════╩════════════════════╩═══════╗
+                                    ║          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓           ║
+                                    ║         ▓▓  ◉       ◉   ▓▓        ║
+                                    ║        ▓▓      ▄▄▄▄      ▓▓       ║
+                                    ║        ▓▓  ───┘    └───  ▓▓       ║
+                                    ║         ▓▓  ▓▓▓▓▓▓▓▓▓▓  ▓▓        ║
+                                    ║            ▓▓▓▓▓▓▓▓▓▓▓▓           ║
+                      ╔═════════════╩═══════════════════════════════════╩══════════════╗
+                      ║                                                                ║
+                      ║                   🙏  T H A N K   Y O U  🙏                    ║
+                      ║                                                                ║
+                      ║                For your time and attention today               ║
+                      ║                                                                ║
+                      ║                     Questions? Let's talk 🚀                   ║
+                      ║                                                                ║
+                      ║                          Neeraj Garg                           ║
+                      ║                       Sam (AI Copresenter)                     ║
+                      ║                                                                ║
+                      ╚════════════════════════════════════════════════════════════════╝
 ```
 ---
 
