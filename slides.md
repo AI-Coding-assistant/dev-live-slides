@@ -440,11 +440,11 @@ This helps reviewers not waste their "Herzblut" on your vibe-coded output.
 
 ---
 
-```banner:epic +animate:matrix +once
-STOP
-DEMO
-TIME
+```banner:epic +animate:matrix
+DEMO TIME
 ```
+
+![demo](assets/demo.png)
 
 ---
 
