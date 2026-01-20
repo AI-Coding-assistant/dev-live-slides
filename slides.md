@@ -25,7 +25,7 @@ options:
 ---
 # Not just any kind of AI
 
-```banner +animate:rainbow +loop
+```banner +animate:matrix 
 Agentic
 ```
 ---
@@ -73,7 +73,7 @@ Agentic
 
 # Standards & Configuration
 
-```banner +animate:rainbow +loop
+```banner +animate:matrix +loop
 STANDARDS
 ```
 
@@ -192,7 +192,7 @@ protect them, and use them wisely.
 # Real-World Example: AEM
 
 ```banner +animate:matrix +loop
-AEM STANDARDS
+AEM
 ```
 
 ---
@@ -212,72 +212,9 @@ AEM STANDARDS
 
 ---
 
-
-# Advanced Tools & Techniques
-
-```banner +animate:matrix +loop
-POWER USER
-```
-
----
-
-# Advanced Tools & Techniques
-
-- **`--dangerously-skip-permissions`** - Skip safety prompts (YOLO mode)
-- **Multitasking** - Run multiple agents in parallel
-- **Git Worktrees** - Isolated workspaces for parallel development
-
-Unlock the full potential of coding agents
-
----
-
-# `--dangerously-skip-permissions`
-
-```banner +animate:matrix +loop
-YOLO
-```
-
----
-
-```ascii +animate:fire +loop
-  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
-  ////////////////////////// DANGER ZONE ////////////////////////
-  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
-                                /\
-                               /!!\
-                              /!!!!\
-                             /!!!!!!\
-                            /!!!!!!!!\
-                            \!!!!!!!!/
-                             \!!!!!!/
-                              \!!!!/
-                               \!!/
-                                \/
-  /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
-  ///////////////////////////////////////////////////////////////
-```
-
-Skips all permission prompts for file operations (and this is where the _fun_ begins)
-
----
-## Normal operations
-
-The agent will ask for permission for any potentially sensitive, or destructive operation.
-
-## How you will feel
-
-Assured, and bored.
-
-## Escape the sandbox
-
-![agent running in yolo mode](assets/yolo.png)
-
-
----
-
 # Multitasking/Multi-Clauding
 
-```banner:ogre +animate:fire +loop
+```banner:ogre +animate:matrix +loop
 PARALLEL
 ```
 
@@ -458,27 +395,21 @@ THANK YOU
 
 <!-- alignment: center -->
 ```ascii
-                                            ╔════════════════════╗
-                                            ║   AI ENGINEER      ║
-                                    ╔══════╩════════════════════╩═══════╗
-                                    ║          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓           ║
-                                    ║         ▓▓  ◉       ◉   ▓▓        ║
-                                    ║        ▓▓      ▄▄▄▄      ▓▓       ║
-                                    ║        ▓▓  ───┘    └───  ▓▓       ║
-                                    ║         ▓▓  ▓▓▓▓▓▓▓▓▓▓  ▓▓        ║
-                                    ║            ▓▓▓▓▓▓▓▓▓▓▓▓           ║
-                      ╔═════════════╩═══════════════════════════════════╩══════════════╗
-                      ║                                                                ║
-                      ║                   🙏  T H A N K   Y O U  🙏                    ║
-                      ║                                                                ║
-                      ║                For your time and attention today               ║
-                      ║                                                                ║
-                      ║                     Questions? Let's talk 🚀                   ║
-                      ║                                                                ║
-                      ║                          Neeraj Garg                           ║
-                      ║                       Sam (AI Copresenter)                     ║
-                      ║                                                                ║
-                      ╚════════════════════════════════════════════════════════════════╝
+                           ╔════════════════════╗
+                           ║   AI ENGINEER      ║
+                    ╔══════╩════════════════════╩═══════╗
+                    ║          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓           ║
+                    ║         ▓▓  ◉       ◉   ▓▓        ║
+                    ║        ▓▓      ▄▄▄▄      ▓▓       ║
+                    ║        ▓▓  ───┘    └───  ▓▓       ║
+                    ║         ▓▓  ▓▓▓▓▓▓▓▓▓▓  ▓▓        ║
+                    ║            ▓▓▓▓▓▓▓▓▓▓▓▓           ║
+             ╔══════╩═══════════════════════════════════╩═════════╗
+             ║                                                    ║
+             ║             🙏  T H A N K   Y O U  🙏              ║
+             ║                                                    ║
+             ║          For your time and attention today         ║
+             ╚════════════════════════════════════════════════════╝
 ```
 ---
 
