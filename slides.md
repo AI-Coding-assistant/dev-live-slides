@@ -484,5 +484,3 @@ THANK YOU
 
 ![feedback image](assets/feedback.png)
 
----
-
